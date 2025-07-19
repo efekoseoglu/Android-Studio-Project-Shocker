@@ -1,0 +1,19 @@
+{
+  "name": "node-micro",
+  "version": "1.0.0",
+  "description": "Node Microservice",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha -R spec spec.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "mocha": "^5.2.0",
+    "supertest": "^3.1.0"
+  }
+}
