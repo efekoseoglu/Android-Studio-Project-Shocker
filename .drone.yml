@@ -5,6 +5,7 @@ steps:
 - name: test
   image: node:9.8.0
   commands:
+  - cd /var/lib/drone/src
   - npm install
   - npm test
 
